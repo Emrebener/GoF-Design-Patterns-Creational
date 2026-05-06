@@ -10,7 +10,7 @@ The files in this repository are illustrative — classes only, no entry points,
 
 - Abstract Factory Pattern
 - Builder Pattern
-- Factory Pattern
+- [Factory Pattern](./Factory)
 - Object Pool Pattern
 - Prototype Pattern
 - [Singleton Pattern](./Singleton)
