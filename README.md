@@ -8,7 +8,7 @@ The files in this repository are illustrative — classes only, no entry points,
 
 ## Patterns covered
 
-- Abstract Factory Pattern
+- [Abstract Factory Pattern](./AbstractFactory)
 - Builder Pattern
 - [Factory Pattern](./Factory)
 - Object Pool Pattern
