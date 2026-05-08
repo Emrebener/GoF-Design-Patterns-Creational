@@ -14,7 +14,7 @@ public final class HttpRequest {
         this.retries = b.retries;
     }
 
-    public static Builder builder(URI url) {
+    public static Builder builder(URI url) { // ← this is the static entry point
         return new Builder(url);
     }
 
@@ -28,9 +28,20 @@ public final class HttpRequest {
             this.url = url;
         }
 
-        public Builder method(String method)     { this.method = method;     return this; }
-        public Builder timeout(Duration timeout) { this.timeout = timeout;   return this; }
-        public Builder retries(int retries)      { this.retries = retries;   return this; }
+        public Builder method(String method) {
+            this.method = method;
+            return this;
+        }
+
+        public Builder timeout(Duration timeout) {
+            this.timeout = timeout;
+            return this;
+        }
+
+        public Builder retries(int retries) {
+            this.retries = retries;
+            return this;
+        }
 
         public HttpRequest build() {
             return new HttpRequest(this);
