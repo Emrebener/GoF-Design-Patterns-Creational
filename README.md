@@ -1,6 +1,6 @@
 # GoF Design Patterns — Creational
 
-Java examples accompanying the [blog series](https://emrebener.com/topics/gof-design-patterns-creational) on the Gang of Four creational design patterns.
+Java examples accompanying the blog series on the Gang of Four creational design patterns.
 
 Creational patterns deal with object construction: *who* decides which concrete type gets instantiated, *when* it gets instantiated, and *how* the rest of the program gets a reference to it. They exist to keep construction logic out of the code that uses the resulting objects, so callers depend on abstractions rather than constructors.
 
