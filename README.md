@@ -11,6 +11,6 @@ The files in this repository are illustrative — classes only, no entry points,
 - [Abstract Factory Pattern](./AbstractFactory)
 - [Builder Pattern](./Builder)
 - [Factory Pattern](./Factory)
-- Object Pool Pattern
-- Prototype Pattern
+- [Object Pool Pattern](./ObjectPool)
+- [Prototype Pattern](./Prototype)
 - [Singleton Pattern](./Singleton)
